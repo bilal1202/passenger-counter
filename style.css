@@ -1,0 +1,62 @@
+body {
+
+    margin: 0;
+    background-size: cover;
+     /* background-repeat: no-repeat, repeat; */
+    background-image: url("/ggg.jpg");
+    font-family: sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: bold;
+    text-align: center;
+    height:100vh;
+    color:whitesmoke
+
+}
+.container{
+    background:transparent;
+    max-width: 80%;
+    margin: auto;
+    /* border: 3px solid rgb(158, 156, 156); */
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
+ color:white
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:20px;
+    color:rgb(231, 144, 144);
+
+}
+
+button {
+    border: 1px solid black;
+    border: none;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 05px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
